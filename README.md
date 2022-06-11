@@ -95,8 +95,8 @@ For servers with a 2TB+ HDD and UEFI
 /tmp/qemu-system-x86_64 -bios /tmp/uefi.bin -net nic -net user,hostfwd=tcp::3389-:3389 -m 2048M -localtime -enable-kvm -cpu host,+nx -M pc -smp 2 -vga std -usbdevice tablet -k en-us -cdrom /tmp/SW_DVD9_Win_Server_STD_CORE_2022__64Bit_English_DC_STD_MLF_X22-74290.ISO -hda /dev/sda -boot once=d -vnc :1
 ```
 
-This is the VNC section
-Once that is ready and before you hit enter on that ssh command lets open VNC viewer on your computer so we can connect to this RDP session that we just made 
+`VNC section`
+Please once you have done the above commands. before you hit enter on that ssh command, let's open VNC viewer on your computer so we can connect to this RDP session that we just made. 
 Put the IP of the server in the connection field like this
 yourIP:1
 
