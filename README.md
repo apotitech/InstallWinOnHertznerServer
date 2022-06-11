@@ -1,7 +1,7 @@
 # InstallWindowsOnHetzner
 How to install Windows server edition on a hetzner dedicated server
 
-Hetzner has multiple ways of installing windows server editions on dedicated nodes, I'll try to cover some because neither hetzner nor anyone made any sensible fucking posting about this and its tiresome. 
+Hetzner has multiple ways of installing windows server editions on dedicated nodes, I'll try to cover some because neither Hetzner nor anyone made any sensible fucking posting about this and its tiresome. 
 
 
 List of methods 
@@ -14,7 +14,7 @@ I will take time and cover all 3 methods.
 
 Some stuff you need to know before you proceed because I wont re-re explain these:<br>
 <br>
-**Robot** = hetzner web panel to manage servers<br>
+**Robot** = Hetzner web panel to manage servers<br>
 **Rescue system** = Is available under robot > servers > click on server you have > rescue (usually third option from the left)<br>
 **KVM** = A KVM switch is a hardware device that allows a user to control computers from one or more sets of keyboards, video monitors, and mice. Basically with kvm you can access the server straight from the BIOS, like you were actually there. For the nub nubs -  It's a bios level RDP to speak.<br>
 **VNC viewer** = Get one for YOUR computer (not for your server) [from here](https://www.realvnc.com/en/connect/download/viewer/)<br>
@@ -83,7 +83,7 @@ cd /
 ```
 
 
-- Now we run the qemu kun by running this command (Do not hit enter until you read the VNC section first you sick fucks)
+- Now we run the qemu kun by running this command (Do not hit enter until you read the VNC section first please)
 
 For servers with no 2TB+ HDD
 ```
@@ -100,7 +100,7 @@ Once that is ready and before you hit enter on that ssh command lets open VNC vi
 Put the IP of the server in the connection field like this
 yourIP:1
 
-Where yourIP is ofc your server IP<br>
+Where your IP is ofcourse your server IP<br>
 Example: 192.168.0.1:1
 
 
